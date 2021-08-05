@@ -19,7 +19,7 @@ const Contactos = () => {
   const [formView, setformView] = useState(false);
 
   return (
-    <div className="container mt-3">
+    <div className="container mt-3 ">
       <button
         onClick={() => setformView(!formView)}
         className="btn btn-success"
